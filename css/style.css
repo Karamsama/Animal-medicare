@@ -228,7 +228,7 @@ nav input, nav label{ display: none; }
   .col-m-8{ flex-basis: 66.66%; max-width: 66.66%;}
   .col-m-9{ flex-basis: 75%; max-width: 75%;}
   .col-m-10{ flex-basis: 83.33%; max-width: 83.33%;}
-  .col-d-11{flex-basis: 91.66%; max-width: 91.66%; }
+  .col-m-11{flex-basis: 91.66%; max-width: 91.66%; }
   .col-m-12{ flex-basis: 100%; max-width: 100%;}
   .sec2-content h2{font-size: 4rem; font-weight: 600;}
 }
@@ -257,9 +257,12 @@ nav input, nav label{ display: none; }
   nav label{ display: block; font-size: 2rem; cursor: pointer; }
   nav input:checked + ul.flex{ display: block; transform: translateX(0);  }
 
-  .sec2-content h2{font-size: 4rem; font-weight: 600;}
+  .sec2-content h2{font-size: 3rem; font-weight: 600;}
   .section-8 img{margin: 50px 0 0 0;}
   .section-8 h2{ margin-bottom: 50px; }
+  .section-10 li{font-size: 1.3rem;}
+  .section-10 h2,li{padding: 0 1rem; text-align: left;}
+  .section-10 h2{font-size: 2rem; margin:5rem 0 1rem ;}
 }
 
 @media screen and (max-width:460px)  {
